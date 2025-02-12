@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
+import MainLayout from "../layout/MainLayout.jsx";
 import Home from "../pages/client/homePage/Home.jsx";
 import Shop from "../pages/client/shop/shopcomponents/Shop.jsx";
 import ShopProductDetails from "../pages/client/shop/shopcomponents/ShopProductDetails.jsx";
 import ShopPing from "../pages/client/shoppingCart/shoppingcartcomponents/ShopPing.jsx";
-import MainLayout from "../layout/MainLayout.jsx";
 import ProductDetails from "../pages/client/product/productcomponents/ProductDetails.jsx";
 import Checkout from "../pages/client/checkout/checkoutcomponents/Checkout.jsx";
 import Signin from "../pages/client/signin/siginComponents/SignIn.jsx";
@@ -40,7 +40,7 @@ import PrivacyPolicy from "../pages/client/privecypolicy/PrivacyPolicy.jsx";
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <MainLayout />,
+        element: <MainLayout/>,
         children: [
             { path: "Home", element: <Home /> },
             { path: "Shop", element: <Shop /> },
