@@ -37,7 +37,7 @@ import PrivacyPolicy from "../pages/client/privecypolicy/PrivacyPolicy.jsx";
 
 
 
-const routers = createBrowserRouter([
+const router = createBrowserRouter([
     {
         path: "/",
         element: <MainLayout />,
@@ -73,4 +73,4 @@ const routers = createBrowserRouter([
     },
 ]);
 
-export default routers;
+export default router;
