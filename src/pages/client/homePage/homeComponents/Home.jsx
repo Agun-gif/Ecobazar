@@ -10,7 +10,7 @@ import BestSallerProduct from './BestSallerProduct'
 import Seller from './Seller'
 import LatestNews from './LatestNews'
 import Customer from './Customer'
-import CompanyLogo from "./CompanyLogo";
+import CompanyLogo from "./CompanyLogo.jsx";
 import Contact from './Contact'
 
 
