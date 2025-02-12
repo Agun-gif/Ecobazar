@@ -3,7 +3,7 @@ import Home from "../pages/client/homePage/Home.jsx";
 import Shop from "../pages/client/shop/shopcomponents/Shop.jsx";
 import ShopProductDetails from "../pages/client/shop/shopcomponents/ShopProductDetails.jsx";
 import ShopPing from "../pages/client/shoppingCart/shoppingcartcomponents/ShopPing.jsx";
-import MainLayout from "../layouts/MainLayout.jsx";
+import MainLayout from "../layout/MainLayout.jsx";
 import ProductDetails from "../pages/client/product/productcomponents/ProductDetails.jsx";
 import Checkout from "../pages/client/checkout/checkoutcomponents/Checkout.jsx";
 import Signin from "../pages/client/signin/siginComponents/SignIn.jsx";
